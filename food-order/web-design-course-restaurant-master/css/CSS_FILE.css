@@ -1,0 +1,274 @@
+/* Applied for all sections */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #dfe4ea;
+}
+.boxes{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.fix{
+    float: none;
+    clear: both;
+}
+
+.taking_text_in_center{
+    text-align: center;
+    background-color: #660000;
+}
+.text_at_center{
+    text-align: center;
+}
+.text_color{
+    color: white;
+}
+.img_inside_border{
+    width: 100%;
+}
+.table_for_reg{
+    width: 30%;
+}
+.table-style{
+    width: 100%;
+}
+ table heading arrangement{
+border-bottom: 1px solid black;
+padding: 1%;
+text-align: left;
+}
+table data arrangement {
+    padding: 1%;
+}
+.img_curve{
+    border-radius: 16px;
+}
+.image_on_same_border{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #ffa502;
+    text-decoration: none;
+}
+.button-primary{
+    padding: 1%;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #ffa502;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.button-before-clicked{
+    background-color: pink;
+}
+.button-secondary{
+    padding: 0%;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.button-after-clicked{
+    background-color: rgb(155, 9, 33);
+}
+.button-danger{
+    padding: 0%;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #b32828;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.button-danger-clicked{
+    background-color: red;
+}
+.success-message{
+    color: #2ed573;
+}
+.error-message{
+    color: #ff4757;
+}
+
+
+h2{
+    color: black;
+    font-size: 27px;
+    margin-bottom: 1.5%;
+}
+h3{
+    font-size: 23px;
+}
+
+h5{
+    color: white;
+    font-size: 40px;
+}
+.box_float_inside_boarder{
+    position: relative;
+}
+.float_the_text{
+    position: absolute;
+    bottom: 49px;
+    left: 41%;
+}
+
+/* Header/Navigation section */
+
+.logo{
+    width: 10%;
+    float: left;
+}
+.text_on_the_right{
+    text-align: right;
+}
+.line_fixed_of_navigation ul{
+    list-style-type: none;
+}
+
+.line_fixed_of_navigation ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+.line_fixed_of_navigation{
+    line-height: 60px;
+}
+
+/* Search Section */
+
+.Search{
+    background-image: url(image/co1.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+.Search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Food type section */
+
+.foodtype{
+    padding: 4% 0;
+}
+
+.foodtype_box{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+/* Food menu section */
+
+.food_menu{
+    background-color: #ececec;
+    padding: 3% 0;
+}
+.different_foods{
+    width: 42%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 14px;
+}
+.detail_of_foods{
+    font-size: 16px;
+    color: #747d8c;
+}
+
+.description_of_foods{
+    width: 66%;
+    float: left;
+    margin-left: 7%;
+    color: turquoise;
+}
+.image_of_foods{
+    width: 20%;
+    float: left;
+}
+.price_of_foods{
+    font-size: 18px;
+    margin: 2% 0;
+}
+
+/* Social media section */
+
+.social_media ul{
+    list-style-type: none;
+}
+.social_media ul li{
+    display: inline;
+    padding: 1.5%;
+}
+
+/* Order Page */
+.form_size{
+    width: 50%;
+    margin: 0 auto;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 4%;
+    padding: 2%;
+    border-radius: 6px;
+}
+.box_size{
+    width: 95%;
+    padding: 1%;
+    margin-bottom: 4%;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    
+}
+.heading_of_order{
+    margin-bottom: 1.5%; 
+    font-weight: bold;
+    color: white
+}
+.img_food_menu{
+    width: 20%;
+    float: left;
+    
+}
+.rs_image{
+    width: 100%;
+}
+.crv_img{
+    border-radius: 15px;
+}
+.description_food-menu{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+.food_pr{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+/* css in login */
+.login-style{
+    border:1px solid black;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}
